@@ -367,8 +367,21 @@ padding: 12px 21px;
 .footer-bottom-inner p {
   font-size: 12px;
   color: #BCC2C4;
+  transition: all 0.3s linear;
 }
 .footer-bottom-inner a:hover{
   color: #006FBA;
+}
+.social-link {
+  height: 37px;
+  width: 37px;
+  background: #000;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-link-wrapper{
+  gap: 26px;
 }
 /* footer area section end */
