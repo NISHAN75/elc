@@ -1,0 +1,99 @@
+/* 1400, 1199, 991, 767, 575, 480, 360, 320 */
+/* CSS Index
+-----------------------------------
+1.default css
+-----------------------------------
+*/
+/* min-width 1430 */
+@media (min-width: 1430px) {
+}
+/* max-width 1399 */
+@media (max-width: 1399.98px) {
+}
+/* max-width 1199 */
+@media (max-width: 1199.98px) { 
+}
+/* max-width 1399 - min-width 992*/
+@media (max-width: 1199.98px) and (min-width: 992px) {
+}
+/* max-width 991 */
+@media (max-width: 991.98px) {
+   /* all padding */
+   .testimonial-area ,
+   .modification-area{
+    padding: 70px 0;
+   }
+   /* all padding */
+
+   /* counter area */
+   
+   .counter-area .row .col ,
+   .counter-area .row .col:nth-child(2) ,
+   .counter-area .row .col:nth-child(3) {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .counter-card {
+        text-align: center;
+    }
+    .counter-area .row .col:nth-child(3) .counter-card {
+        max-width: 178px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .counter-area .col::before {
+        display: none;
+    }
+   /* counter area */
+
+
+   /* modification section start */
+   .modification-item {
+        margin-bottom: 80px;
+    }
+    .desk-img ,
+    .modification-content p ,
+    .modification-img  ,
+    .modification-content {
+        max-width: 100%;
+    }
+
+   /* modification section end */
+
+
+   /* testimonial area section start */
+   .testimonial-content-wrapper .row {
+        --bs-gutter-x: 24px;
+        --bs-gutter-y: 50px;
+    }
+   /* testimonial area section end */
+}
+/* max-width 767 */
+@media (max-width: 767.98px) { 
+    
+    /* all padding */
+    .testimonial-area ,
+   .modification-area{
+    padding: 50px 0;
+   }
+   /* all padding */
+
+    /* modification section start */
+    .modification-item {
+    margin-bottom: 40px;
+    }
+   /* modification section end */
+}
+/* max-width 575 */
+@media (max-width: 575.98px) {
+  
+}
+/* max-width 479 */
+@media (max-width: 479.98px) {
+ 
+  
+}
+/* max-width 383 */
+@media (max-width: 383.98px) {
+  
+}
